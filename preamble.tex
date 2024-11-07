@@ -1,0 +1,72 @@
+% paquetes, configuración, y título
+\documentclass[journal,twoside]{IEEEtran}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{amssymb, amsmath, amsthm , amsfonts}
+\usepackage{graphicx, float, subcaption}
+\usepackage{siunitx}
+\usepackage{enumerate}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage[export]{adjustbox}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{cite}
+%Usar \url{http...} para links
+\usepackage{url}
+%O también \href{http...}{text}
+\usepackage{hyperref}
+%Con \gamma sale cursiva, \upgamma sale recta
+\usepackage{upgreek}
+%Usar $ 220\phase{3\degree} $
+\usepackage{steinmetz}
+%Usar \degree para sacar un °
+\usepackage{gensymb}
+%Negrilla para formulas $ \bm{x} $
+\usepackage{bm}
+% Se puede usar $ \sfrac{x}{y} $
+\usepackage{xfrac}
+%pueden ingresar imagenes en .eps
+\usepackage{epstopdf}
+\usepackage{float}
+%\graphicspath{ {images/} }
+\setlength{\parskip}{\baselineskip}
+\raggedbottom
+%Cambia nombre default de table
+%\AtBeginDocument{%
+%\renewcommand{\tablename}{TABLA}}
+%Cambia nombre default de keywords
+%\renewcommand{\IEEEkeywords}{\small\textsl{\textbf{Palabras claves---}}}
+%Cambia nombre default de figuras
+%\renewcommand{\figurename}{Figura}
+%Cambia nombre default de referencias
+%\renewcommand{\refname}{Referencias}
+%Pueden usar $ \abs{x} $ para |x| 
+\providecommand{\abs}[1]{\lvert#1\rvert}
+
+\decimalpoint
+
+\title{
+    Informe de Laboratorio No.~ 1 \\
+    Efecto de Carga en Instrumentos de Medición \\
+    Electrónica Análoga II - 2016496
+}
+
+
+\author{
+    \IEEEauthorblockN{
+        Juan Sebastian Alba Narvaez, 
+        Jorge Luis Ladeus Machado, 
+        David Alejandro Riano Sarmiento \\
+        \{jalban, jladeus, darianos\}@unal.edu.co}\\
+    \IEEEauthorblockA{
+        Departamento de Ingeniería Eléctrica y Electrónica\\
+        Universidad Nacional de Colombia. Bogotá D.C., Colombia.\\
+    }
+}
+\renewcommand{\leftmark}{Laboratorio de Electrónica Análoga II - 2024-1} 
